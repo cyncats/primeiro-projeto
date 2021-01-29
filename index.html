@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8"> 
+        <title>Index</title>
+        <link rel="stylesheet" href="css/index.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- small screen-->
+        <script type="text/javascript" src="js/cycle2.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+    </head>
+
+    <body>
+    
+
+    <div class="container">
+            <header>
+                <h1> Cynthia Chybior da Cruz</h1>
+                    <p class="hide-small"> This is my personal website</p>
+        
+                    <nav class="site-nav">
+                        <ul class="group">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="datatables.html">About</a></li>
+                            <li><a href="forms.html">Portofolio</a></li>
+                            <li><a href="typograpfy.html">About Us</a></li>
+                        </ul>
+                    </nav>
+            </header>
+
+            <div class="content-area group">
+       
+                <div class="main-area">
+                        <h2>Professional Experience</h2>
+        
+                        <nav class="ui-menu">
+                            <ul class="group">
+                                <li class="ui-home"><a href="#">Linkedin</a></li>
+                            </ul>
+                        </nav>
+                        <div class="row">
+                    
+                           <div class="row boxes"> 
+                                        <div class="rex col-sm-6 col-lg-3">
+                                            <div class="box-a">
+                                                <p>Key feature 1</p>
+                                            </div>
+                                        </div>
+
+                                         <div class="rex col-sm-6 col-lg-3">
+                                            <div class="box-a">
+                                                <p>Key feature 2</p>
+                                            </div>
+                                         </div>
+                                        <div class="rex col-sm-6 col-lg-3">
+                                            <div class="box-a">
+                                                 <p>Key feature 3</p>
+                                             </div>
+                                         </div>
+                            </div>
+
+                            <div class="col col-md-8 push-down-sm">
+                                <div class="slideshow-container">
+
+                                    <div class="mySlides fade" class="slide">
+                                      <img src="./imagens/bird.jpg" alt="Bird" style="width:100%">
+                            
+                                    </div>
+                                    
+                                    <div class="mySlides fade">
+                                      <img src="./imagens/lua.JPG" style="width:100%">
+                                 
+                                    </div>
+                                </div>
+
+                                <div style="text-align:center">
+                                    <span class="dot"></span> 
+                                    <span class="dot"></span> 
+                                  </div>
+
+                                <script>
+                                    var slideIndex = 0;
+                                    showSlides();
+                                    
+                                    function showSlides() {
+                                      var i;
+                                      var slides = document.getElementsByClassName("mySlides");
+                                      var dots = document.getElementsByClassName("dot");
+                                      for (i = 0; i < slides.length; i++) {
+                                        slides[i].style.display = "none";  
+                                      }
+                                      slideIndex++;
+                                      if (slideIndex > slides.length) {slideIndex = 1}    
+                                      for (i = 0; i < dots.length; i++) {
+                                        dots[i].className = dots[i].className.replace(" active", "");
+                                      }
+                                      slides[slideIndex-1].style.display = "block";  
+                                      dots[slideIndex-1].className += " active";
+                                      setTimeout(showSlides, 2000); // Change image every 2 seconds
+                                    }
+                                    </script>
+                                
+
+
+                            </div>
+                        </div>
+                
+                    
+                   
+                         
+                        <div class="info-box hide-small">
+                            <p><strong> This NOT important, do not display on mobile devices. </strong> Hey! I live in North Rhine-Westphalia and my husband and I 
+                                are looking for a kitten to buy. Any ideas where I could find one besides Ebay? 
+                                Also is it even possible to find a kitten that isn't 200 euros plus here? — procurando recomendações.</p>
+                        </div>
+                            <p>This is the main area or collumn. Hey! I live in North Rhine-Westphalia and my husband and I 
+                                    are looking for a kitten to buy. Any ideas where I could find one besides Ebay? 
+                                    Also is it even possible to find a kitten that isn't 200 euros plus here? — procurando recomendações.</p>
+
+                            <p>This is the main area or collumn. Hey! I live in North Rhine-Westphalia and my husband and I 
+                            are looking for a kitten to buy. Any ideas where I could find one besides Ebay? 
+                            Also is it even possible to find a kitten that isn't 200 euros plus here? — procurando recomendações.</p>
+                        </div>
+              
+                    <aside class="sidebar"> 
+                
+                        <p>this is a side bar.This is the main area or collumn. Hey! I live in North Rhine-Westphalia and my husband and I 
+                            are looking for a kitten to buy. Any ideas where I could find one besides Ebay? 
+                            Also is it even possible to find a kitten that isn't 200 euros plus here? — procurando recomendações. </p>
+
+                            <div class="box-b">
+                                I am a circle
+                            </div>
+                    </aside>
+
+                   
+           </div> 
+
+        </div>
+
+    </body>
+</html>
