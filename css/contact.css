@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'PTSans';
+   src: url('fonts/HM.ttf') format('truetype');
+    font-weight: normal ;
+    font-style: normal;
+   }
+
+html{
+    background-color: #283044;
+}
+body{
+    font-family: 'PTSans', Arial, sans-serif;
+    font-size: 87%;
+}
+.container{
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+    background-color: #FFF;
+	padding-top: 0px;
+	padding-left: 40px;
+	box-sizing: border-box;
+    border-radius: 6px;
+    border-style: solid;
+ 
+}
+/*Responsive: For big screens*/
+@media screen and (max-width: 1300px){
+
+    body{
+        font-size: 17px;
+    }
+    .container{
+        max-width: 1200px;
+    }
+}
+/*Responsive: For small screens only if device is 480 or smaller*/
+@media screen and (max-width: 480px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 700px){
+    .main-area,
+    .sidebar{
+        width: auto;
+        float: none;
+    }
+    .main-area{
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 200px){
+    .hide-small{
+        display: none;
+    }
+}
+header{
+    padding-top: 20px;
+    color: #283044;
+    background-image: url(../imagens/cats.jpg);
+    background-position: right center;
+    background-size: 400px 210px;
+    background-repeat: no-repeat;
+}
+header h1{
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+header {
+    margin: 0;
+}
+/*Site navigation */
+.site-nav {
+    margin-top: 15px;
+    border-radius: 6px;
+  
+    }
+    
+.site-nav ul{
+        margin: 0;
+        padding: 0;
+ }
+    
+.site-nav li {
+        list-style: none;
+        float: left;
+        margin-right: 5px;
+}
+    .site-nav a {
+    display: block;    
+    text-decoration: none;
+    color: #78A1BB;
+    padding: 10px 20px;
+    border-bottom: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px #000;
+    /*change color of the buttons, can use "all" */
+    transition-property: color, background-color;
+    transition-duration: 2s;
+    }
+    
+    .site-nav a:hover {
+        background-color: #283044;
+        transform: scale(1.02);
+    }
+    /*End site navigation */
+
+    .group:before,
+    .group::after
+    {
+    content: "";
+    display:table;
+    }
+    .group::after{
+        clear: both;
+    }
+    .group{
+        zoom:1;
+    }

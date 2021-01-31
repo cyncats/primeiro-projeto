@@ -65,7 +65,7 @@ body{
 	box-sizing: border-box;
     border-radius: 6px;
     border-style: solid;
-    border-color: red;
+ 
 }
 /*Responsive: For big screens*/
 @media screen and (max-width: 1300px){
@@ -158,8 +158,7 @@ img {
     float: left;
     padding-right: 60px;
     box-sizing: border-box;
-    border-style: solid;
-    border-color: blue;
+  
 }
 
 
@@ -230,9 +229,9 @@ img {
     opacity: 0;
     -webkit-animation: fadeBounce 2s forwards;
     animation: fadeBounce 2s forwards;
-    background-color: #e7eff5;
+    background-color: #ecf1f5;
     padding: 20px 20px 0 20px;
-    border: 2px solid #d3dee7;
+    border: 2px solid #ecf1f5;
     margin-bottom: 30px;
     box-shadow: 2px 2px 5px #000;
 }
@@ -271,16 +270,16 @@ criar o media para o tamanho do screen para o xs, lg, medio, entao a pagina se a
 	padding: 20px 40px;
 	box-sizing: border-box;
 	font-size: 110%;
-	background-color: #a89968;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#e5e9dc), to(#FFF));
-	background-image: -webkit-linear-gradient(top, #e5e9dc, #FFF);
-	background-image: -moz-linear-gradient(top, #e5e9dc, #FFF);
-	background-image: -ms-linear-gradient(top, #e5e9dc, #FFF);
-	background-image: -o-linear-gradient(top, #e5e9dc, #FFF);
-    background-image: linear-gradient(to bottom, #e5e9dc, #FFF);
+	background-color: #d1d3e7;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#d1d3e7), to(#FFF));
+	background-image: -webkit-linear-gradient(top, #d1d3e7, #FFF);
+	background-image: -moz-linear-gradient(top, #d1d3e7, #FFF);
+	background-image: -ms-linear-gradient(top, #d1d3e7, #FFF);
+	background-image: -o-linear-gradient(top, #d1d3e7, #FFF);
+    background-image: linear-gradient(to bottom, #d1d3e7, #FFF);
     border-style: solid;
    /* border-color: green; */
-    border-radius: 160px;
+    border-radius: 10px;
     border-style: none;
     text-align: center;
 }
